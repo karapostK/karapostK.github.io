@@ -3,22 +3,23 @@
 
 
 @inproceedings{lesota2021analyzing,
-  title={Analyzing item popularity bias of music recommender systems: Are different genders equally affected?},
-  author={Lesota, Oleg and Melchiorre, Alessandro and Rekabsaz, Navid and Brandl, Stefan and Kowald, Dominik and Lex, Elisabeth and Schedl, Markus},
-  booktitle={Fifteenth ACM Conference on Recommender Systems},
+  title={Analyzing Item Popularity Bias of Music Recommender Systems: Are Different Genders Equally Affected?},
+  author={Lesota, Oleg and Melchiorre, Alessandro B. and Rekabsaz, Navid and Brandl, Stefan and Kowald, Dominik and Lex, Elisabeth and Schedl, Markus},
+  booktitle={Fifteenth ACM Conference on Recommender Systems (RecSys)},
   pages={601--606},
   year={2021}
 }
 
 
 @article{melchiorre2021investigating,
-  title={Investigating gender fairness of recommendation algorithms in the music domain},
-  author={Melchiorre, Alessandro B and Rekabsaz, Navid and Parada-Cabaleiro, Emilia and Brandl, Stefan and Lesota, Oleg and Schedl, Markus},
-  journal={Information Processing \& Management},
+  title={Investigating Gender Fairness of Recommendation Algorithms in the Music Domain},
+  author={Melchiorre, Alessandro B. and Rekabsaz, Navid and Parada-Cabaleiro, Emilia and Brandl, Stefan and Lesota, Oleg and Schedl, Markus},
+  journal={Information Processing \& Management (IPM)},
   volume={58},
   number={5},
   pages={102666},
   year={2021},
+  abstract={Although recommender systems (RSs) play a crucial role in our society, previous studies have revealed that the performance of RSs may considerably differ between groups of individuals with different characteristics or from different demographics. In this case, a RS is considered to be unfair when it does not perform equally well for different groups of users. Considering the importance of RSs in the distribution and consumption of musical content worldwide, a careful evaluation of fairness in the context of music RSs is crucial. To this end, we first introduce LFM-2b, a novel large-scale real-world dataset of music listening records, comprising a subset to investigate bias of RSs regarding users’ demographics. We then define a notion of fairness based on the performance gap of a RS between the users with different demographics, and evaluate a variety of collaborative filtering algorithms in terms of accuracy and beyond-accuracy metrics to explore the fairness in the RS results toward a specific gender group. We observe the existence of significant discrepancies (unfairness) between the performance of algorithms across male and female user groups. Based on these discrepancies, we explore to what extent recommender algorithms lead to intensifying the underlying population bias in the final results. We also study the effect of a resampling strategy, commonly used as debiasing method , which yields slight improvements in the fairness measures of various algorithms while maintaining their accuracy and beyond-accuracy performance.},
   publisher={Elsevier}
 }
 
@@ -29,7 +30,7 @@
   booktitle={European Conference on Information Retrieval (ECIR)},
   pages={531--536},
   year={2021},
-  publisher={Springer International Publishing}
+  publisher={Springer International Publishing},
   abstract={Although current music recommender systems suggest new tracks to their users, they do not provide listenable explanations of why a user should listen to them. LEMONS (Demonstration video: https://youtu.be/giSPrPnZ7mc) is a new system that addresses this gap by (1) adopting a deep learning approach to generate audio content-based recommendations from the audio tracks and (2) providing listenable explanations based on the time-source segmentation of the recommended tracks using the recently proposed audioLIME}
 }
 
@@ -39,7 +40,8 @@
   author={Liu, Meijun and Zangerle, Eva and Hu, Xiao and Melchiorre, Alessandro B. and Schedl, Markus},
   booktitle={Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR)},
   pages={157-165},
-  year={2020}
+  year={2020},
+  abstract={The COVID-19 pandemic causes a massive global health crisis and produces substantial economic and social distress, which in turn may cause stress and anxiety among people. Real-world events play a key role in shaping collective sentiment in a society. As people listen to music daily everywhere in the world, the sentiment of music being listened to can reflect the mood of the listeners and serve as a measure of collective sentiment. However, the exact relationship between real-world events and the sentiment of music being listened to is not clear. Driven by this research gap, we use the unexpected outbreak of COVID-19 as a natural experiment to explore how users' sentiment of music being listened to evolves before and during the outbreak of the pandemic. We employ causal inference approaches on an extended version of the LFM-1b dataset of listening events shared on Last.fm, to examine the impact of the pandemic on the sentiment of music listened to by users in different countries. We find that, after the first COVID-19 case in a country was confirmed, the sentiment of artists users listened to becomes more negative. This negative effect is pronounced for males while females' music emotion is less influenced by the outbreak of the COVID-19 pandemic. We further find a negative association between the number of new weekly COVID-19 cases and users' music sentiment. Our results provide empirical evidence that public sentiment can be monitored based on collective music listening behaviors, which can contribute to research in related disciplines.}
 }
 
 
@@ -51,7 +53,7 @@ isbn = {9781450375832},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3383313.3412223},
-abstract = { Recommender systems, like other tools that make use of machine learning, are known to create or increase certain biases. Earlier work has already unveiled different performance of recommender systems for different user groups, depending on gender, age, country, and consumption behavior. In this work, we study user bias in terms of another aspect, i.e., users’ personality. We investigate to which extent state-of-the-art recommendation algorithms yield different accuracy scores depending on the users’ personality traits. We focus on the music domain and create a dataset of Twitter users’ music consumption behavior and personality traits, measuring the latter in terms of the OCEAN model. Investigating recall@K and NDCG@K of the recommendation algorithms SLIM, embarrassingly shallow autoencoders for sparse data (EASE), and variational autoencoders for collaborative filtering (Mult-VAE) on this dataset, we find several significant differences in performance between user groups scoring high vs. groups scoring low on several personality traits.},
+abstract = {Recommender systems, like other tools that make use of machine learning, are known to create or increase certain biases. Earlier work has already unveiled different performance of recommender systems for different user groups, depending on gender, age, country, and consumption behavior. In this work, we study user bias in terms of another aspect, i.e., users’ personality. We investigate to which extent state-of-the-art recommendation algorithms yield different accuracy scores depending on the users’ personality traits. We focus on the music domain and create a dataset of Twitter users’ music consumption behavior and personality traits, measuring the latter in terms of the OCEAN model. Investigating recall@K and NDCG@K of the recommendation algorithms SLIM, embarrassingly shallow autoencoders for sparse data (EASE), and variational autoencoders for collaborative filtering (Mult-VAE) on this dataset, we find several significant differences in performance between user groups scoring high vs. groups scoring low on several personality traits.},
 booktitle = {Fourteenth ACM Conference on Recommender Systems (RecSys)},
 pages = {533–538},
 numpages = {6}

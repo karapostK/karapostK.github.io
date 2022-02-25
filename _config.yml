@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Alessandro
 middle_name: B.
 last_name: Melchiorre
-email: alessandro.b.mel<(at)>gmail.com
+email: alessandro.b.mel (at) gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -71,7 +71,7 @@ dblp_url: https://dblp.org/pid/270/2273
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to contact me is to write an email to alessandro.b.mel ((at)) gmail.com
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -82,7 +82,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
+blog_name:  # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 

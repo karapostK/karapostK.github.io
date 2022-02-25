@@ -53,21 +53,21 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: karapostK
 gitlab_username: # your GitLab user name
 twitter_username: ale_melchiorre
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+linkedin_username: a-melchiorre
+scholar_userid: n02gnLsAAAAJ
 orcid_id: 0000-0003-1643-1166
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Alessandro-Melchiorre-2
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
+dblp_url: https://dblp.org/pid/270/2273
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >

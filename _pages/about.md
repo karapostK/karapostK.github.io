@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. Student at <a href='https://www.jku.at/en'>Johannes Kepler University Linz, Austria</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right

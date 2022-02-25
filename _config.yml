@@ -203,7 +203,7 @@ jekyll-archives:
 scholar:
 
   last_name: Melchiorre
-  first_name: [Alessandro B., Alessandro]
+  first_name: [Alessandro B., Alessandro, Alessandro B, Alessandro B.*]
 
   style: apa
   locale: en

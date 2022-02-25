@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Student at <a href='https://www.jku.at/en'>Johannes Kepler University Linz, Austria</a>. Address. Contacts. Moto. Etc.
+subtitle: alessandro.melchiorre <(at)> jku.at # Ph.D. Student at <a href='https://www.jku.at/en'>Johannes Kepler University Linz, Austria</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: img/prof_pic.jpg
+  image: prof_pic.jpg
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>

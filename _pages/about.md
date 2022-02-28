@@ -1,14 +1,14 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
-subtitle: Ph.D. Student at <a href='https://www.jku.at/en'>Johannes Kepler University Linz, Austria</a> # Address. Contacts. Moto. Etc.
+# subtitle: Ph.D. Student at <a href='https://www.jku.at/en'>Johannes Kepler University Linz, Austria</a> # Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>alessandro.b.mel ((at)) gmail.com </p>
+    alessandro.b.mel ((at)) gmail.com
  
 
 news: true  # includes a list of news items

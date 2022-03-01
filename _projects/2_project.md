@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Emotion-aware Music Tower Blocks
+description: Art Exhibit at Linz Ars Electronica Festival 2021
 img: assets/img/3.jpg
 importance: 2
 category: work

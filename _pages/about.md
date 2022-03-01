@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: alessandro.b.mel **at** gmail.com
+subtitle: alessandro.b.mel ((at)) gmail.com
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hola!
 
-I am a Ph.D. student at the Institute <a href='https://www.jku.at/en/institute-of-computational-perception/'> of Computational Perception</a> and at Multimedia Mining and Search Group at the <a href='https://www.jku.at/en'>Johannes Kepler University Linz</a>, Austria. 
+I am a Ph.D. student at the Institute <a href='https://www.jku.at/en/institute-of-computational-perception/'> of Computational Perception</a> and at the Multimedia Mining and Search Group at the <a href='https://www.jku.at/en'>Johannes Kepler University Linz</a>, Austria. 
 
 I studied Engineering in Computer Science in my Bachelor at <a href='https://www.unina.it'>Università degli Studi di Napoli Federico II</a> and in my Master at <a href='https://www.uniroma1.it'>Sapienza - Università di Roma</a> where I both graduated with full marks. 
 

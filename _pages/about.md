@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: alessandro.b.mel ((at)) gmail.com
+subtitle: alessandro.b.mel **at** gmail.com
 
 profile:
   align: right

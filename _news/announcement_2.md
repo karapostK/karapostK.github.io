@@ -1,7 +1,7 @@
 ---
 layout: post
 title: arxiv paper
-date: 2022-25-01
+date: 2022-01-25
 inline: true
 ---
 

@@ -7,6 +7,12 @@ importance: 1
 category: work
 ---
 
+PI: Alessandro B. Melchiorre \
+Co-PIs: Oleg Lesota and Markus Schedl \
+Funding: 62,000 EUR \
+Runtime: March-Sept 2022 \
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/bhp_universe.png" title="universe" class="img-fluid rounded z-depth-1" %}
@@ -24,10 +30,7 @@ In this context, the visitors of the BHP exhibit will impersonate a powerful tim
 
 ***
 
-The project **Black Holes of Popularity** will be exhibited at the [Linz Ars Electronica Festival 2022](https://www.jku.at/lit-open-innovation-center/art-science/projekte/lit-ars-sonder-call/)
+The project **Black Holes of Popularity** will be exhibited at the [Linz Ars Electronica Festival 2022](https://www.jku.at/lit-open-innovation-center/art-science/projekte/lit-ars-sonder-call/). More details will follow!
 
 
-PI: Alessandro B. Melchiorre
-Co-PIs: Oleg Lesota and Markus Schedl
-Funding: 62,000 EUR
-Runtime: March-Sept 2022 
+

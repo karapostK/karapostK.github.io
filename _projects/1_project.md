@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Black Holes of Popularity
-description: a project with a background image
-img: assets/img/12.jpg
+description: Art Exhibit at Linz Ars Electronica 2022
+img: assets/img/bhp_universe.png
 importance: 1
 category: work
 related_publications: einstein1956investigations, einstein1950meaning

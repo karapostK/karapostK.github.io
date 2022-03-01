@@ -7,10 +7,14 @@ importance: 1
 category: work
 ---
 
+**Black Holes of Popularity** will be exhibited at the [Linz Ars Electronica Festival 2022](https://www.jku.at/lit-open-innovation-center/art-science/projekte/lit-ars-sonder-call/). More details will follow!
+
 PI: Alessandro B. Melchiorre \
 Co-PIs: Oleg Lesota and Markus Schedl \
 Funding: 62,000 EUR \
-Runtime: March-Sept 2022 \
+Runtime: March-Sept 2022 
+
+***
 
 
 <div class="row">
@@ -28,9 +32,6 @@ BHP employs the metaphor of a music universe to represent the diversity of music
 
 In this context, the visitors of the BHP exhibit will impersonate a powerful time and space adventurer whose action can affect the universe and change the fate of the cosmic bodies. Will the visitors work together to save the less popular tracks from their doom? Or will they collapse the whole universe into a single massive black hole? Every decision will lead to consequences of cosmic proportions.
 
-***
-
-The project **Black Holes of Popularity** will be exhibited at the [Linz Ars Electronica Festival 2022](https://www.jku.at/lit-open-innovation-center/art-science/projekte/lit-ars-sonder-call/). More details will follow!
 
 
 

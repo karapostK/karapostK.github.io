@@ -1,14 +1,31 @@
 ---
 ---
-@inproceedings{melchiorre2022emomtb,
-  title={EmoMTB: Emotion-aware Music Tower Blocks},
-  author={Melchiorre, Alessandro B. and Penz, David and Ganhör, Christian and Lesota, Oleg and Fragoso, Vasco and Fritzl, Florian and Parada-Cabaleiro, Emilia and Schubert, Franz and Schedl, Markus},
-  booktitle={ACM International Conference on Multimedia Retrieval (ICMR)},
+@inproceedings{melchiorre2022protomf,
+  title={ProtoMF: Prototype-based Matrix Factorization for Effective and Explainable Recommendations},
+  author={Melchiorre, Alessandro B. and Rekabsaz, Navid and Ganhör, Christian and Schedl, Markus},
+  booktitle={ACM Conference on Recommender Systems (RecSys)},
   year={2022},
   publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  abstract = {Recent studies show the benefits of reformulating common machine learning models through the concept of prototypes -- representatives of the underlying data, used to calculate the prediction score as a linear combination of similarities of a data point to prototypes. Such prototype-based formulation of a model, in addition to preserving (sometimes enhancing) the performance, enables explainability of the model's decisions, as the prediction can be linearly broken down into the contributions of distinct definable prototypes. Following this direction, we extend the idea of prototypes to the recommender system domain by introducing ProtoMF, a novel collaborative filtering algorithm. ProtoMF learns sets of user/item prototypes that represent the general consumption characteristics of users/items in the underlying dataset. Using these prototypes, ProtoMF then represents users and items as vectors of similarities to the corresponding prototypes. These user/item representations are ultimately leveraged to make recommendations that are both effective in terms of accuracy metrics, and explainable through the interpretation of prototypes' contributions to the affinity scores. We conduct experiments on three datasets to assess both the effectiveness and the explainability of ProtoMF. Addressing the former, we show that ProtoMF exhibits higher Hit~Ratio and NDCG compared to other relevant collaborative filtering approaches. As for the latter, we qualitatively show how ProtoMF can provide explainable recommendations and how its explanation capabilities can expose the existence of statistical biases in the learned representations, which we exemplify for the case of gender bias.},
+  bibtex_show={true},
+  pdf={ProtoMF__Prototype_based_Matrix_Factorization.pdf},
+  selected={true}
+}
+
+
+@inproceedings{melchiorre2022emomtb,
+  title={EmoMTB: Emotion-aware Music Tower Blocks},
+  author={Melchiorre, Alessandro B. and Penz, David and Ganh\"r, Christian and Lesota, Oleg and Fragoso, Vasco and Fritzl, Florian and Parada-Cabaleiro, Emilia and Schubert, Franz and Schedl, Markus},
+  booktitle={Proceedings of the 2022 International Conference on Multimedia Retrieval (ICMR)},
+  year={2022},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
   abstract = {We introduce Emotion-aware Music Tower Blocks (EmoMTB), an audiovisual interface to explore large music collections. It creates a musical landscape, by adopting the metaphor of a city, where similar songs are grouped into the same building and nearby buildings form neighborhoods of particular genres. In order to personalize the user experience, an underlying classifier monitors textual user-generated content, by predicting their emotional state and adapting the audiovisual elements of the interface accordingly. EmoMTB enables users to explore different musical styles either within their comfort zone or outside of it. Besides, tailoring the results of the recommender engine to match the affective state of the user, EmoMTB offers a unique way to discover and enjoy music. 
 EmoMTB supports exploring a collection of circa half a million streamed songs using a regular smartphone as a control interface to navigate in the landscape.},
-  bibtex_show={true}
+  bibtex_show={true},
+  html={https://dl.acm.org/doi/10.1145/3512527.3531351},
+  pages = {206-–210},
 }
 
 @article{afchar2022explainability,
@@ -19,7 +36,8 @@ EmoMTB supports exploring a collection of circa half a million streamed songs us
   abstract={The most common way to listen to recorded music nowadays is via streaming platforms which provide access to tens of millions of tracks. To assist users in effectively browsing these large catalogs, the integration of Music Recommender Systems (MRSs) has become essential. Current real-world MRSs are often quite complex and optimized for recommendation accuracy. They combine several building blocks based on collaborative filtering and content-based recommendation. This complexity can hinder the ability to explain recommendations to end users, which is particularly important for recommendations perceived as unexpected or inappropriate. While pure recommendation performance often correlates with user satisfaction, explainability has a positive impact on other factors such as trust and forgiveness, which are ultimately essential to maintain user loyalty. In this article, we discuss how explainability can be addressed in the context of MRSs. We provide perspectives on how explainability could improve music recommendation algorithms and enhance user experience. First, we review common dimensions and goals of recommenders' explainability and in general of eXplainable Artificial Intelligence (XAI), and elaborate on the extent to which these apply -- or need to be adapted -- to the specific characteristics of music consumption and recommendation. Then, we show how explainability components can be integrated within a MRS and in what form explanations can be provided. Since the evaluation of explanation quality is decoupled from pure accuracy-based evaluation criteria, we also discuss requirements and strategies for evaluating explanations of music recommendations. Finally, we describe the current challenges for introducing explainability within a large-scale industrial music recommender system and provide research perspectives.},
   year={2022},
   html = {https://arxiv.org/abs/2201.10528},
-  selected= {true}
+  selected= {true},
+  pages={190--208},
 }
 
 
@@ -50,7 +68,8 @@ EmoMTB supports exploring a collection of circa half a million streamed songs us
   publisher={Elsevier},
   bibtex_show={true},
   html={https://www.sciencedirect.com/science/article/pii/S0306457321001540},
-  selected= {true}
+  selected={true},
+  pdf={Investigating gender fairness of recommendation algorithms in the music domain.pdf}
 }
 
 
@@ -63,7 +82,8 @@ EmoMTB supports exploring a collection of circa half a million streamed songs us
   publisher={Springer International Publishing},
   abstract={Although current music recommender systems suggest new tracks to their users, they do not provide listenable explanations of why a user should listen to them. LEMONS (Demonstration video: https://youtu.be/giSPrPnZ7mc) is a new system that addresses this gap by (1) adopting a deep learning approach to generate audio content-based recommendations from the audio tracks and (2) providing listenable explanations based on the time-source segmentation of the recommended tracks using the recently proposed audioLIME},
   bibtex_show={true},
-  html= {https://link.springer.com/chapter/10.1007/978-3-030-72240-1_60}
+  html= {https://link.springer.com/chapter/10.1007/978-3-030-72240-1_60},
+  pdf={lemons.pdf}
 }
 
 

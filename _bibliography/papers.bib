@@ -3,41 +3,51 @@
 @inproceedings{melchiorre2022protomf,
     title = {ProtoMF: Prototype-based Matrix Factorization for Effective and Explainable Recommendations},
     author = {Melchiorre, Alessandro B. and Rekabsaz, Navid and Ganhör, Christian and Schedl, Markus},
-    booktitle = {ACM Conference on Recommender Systems (RecSys)},
+    booktitle = {Proceedings of the 16th ACM Conference on Recommender Systems (RecSys)},
     year = {2022},
     publisher = {Association for Computing Machinery},
     address = {New York, NY, USA},
     abstract = {Recent studies show the benefits of reformulating common machine learning models through the concept of prototypes -- representatives of the underlying data, used to calculate the prediction score as a linear combination of similarities of a data point to prototypes. Such prototype-based formulation of a model, in addition to preserving (sometimes enhancing) the performance, enables explainability of the model's decisions, as the prediction can be linearly broken down into the contributions of distinct definable prototypes. Following this direction, we extend the idea of prototypes to the recommender system domain by introducing ProtoMF, a novel collaborative filtering algorithm. ProtoMF learns sets of user/item prototypes that represent the general consumption characteristics of users/items in the underlying dataset. Using these prototypes, ProtoMF then represents users and items as vectors of similarities to the corresponding prototypes. These user/item representations are ultimately leveraged to make recommendations that are both effective in terms of accuracy metrics, and explainable through the interpretation of prototypes' contributions to the affinity scores. We conduct experiments on three datasets to assess both the effectiveness and the explainability of ProtoMF. Addressing the former, we show that ProtoMF exhibits higher Hit~Ratio and NDCG compared to other relevant collaborative filtering approaches. As for the latter, we qualitatively show how ProtoMF can provide explainable recommendations and how its explanation capabilities can expose the existence of statistical biases in the learned representations, which we exemplify for the case of gender bias.},
     bibtex_show = {true},
-    pdf = {ProtoMF__Prototype_based_Matrix_Factorization.pdf},
-    selected = {true}
+    pdf = {melchiorre2022protomf.pdf},
+    selected = {true},
+    preview = {melchiorre2022protomf_preview.png},
+    key = {value},
 }
 
 
 @inproceedings{melchiorre2022emomtb,
     title = {EmoMTB: Emotion-aware Music Tower Blocks},
-    author = {Melchiorre, Alessandro B. and Penz, David and Ganh\"r, Christian and Lesota, Oleg and Fragoso, Vasco and Fritzl, Florian and Parada-Cabaleiro, Emilia and Schubert, Franz and Schedl, Markus},
+    author = {Melchiorre, Alessandro B. and Penz, David and Ganh\"or, Christian and Lesota, Oleg and Fragoso, Vasco and Fritzl, Florian and Parada-Cabaleiro, Emilia and Schubert, Franz and Schedl, Markus},
     booktitle = {Proceedings of the 2022 International Conference on Multimedia Retrieval (ICMR)},
     year = {2022},
     publisher = {Association for Computing Machinery},
     address = {New York, NY, USA},
     abstract = {We introduce Emotion-aware Music Tower Blocks (EmoMTB), an audiovisual interface to explore large music collections. It creates a musical landscape, by adopting the metaphor of a city, where similar songs are grouped into the same building and nearby buildings form neighborhoods of particular genres. In order to personalize the user experience, an underlying classifier monitors textual user-generated content, by predicting their emotional state and adapting the audiovisual elements of the interface accordingly. EmoMTB enables users to explore different musical styles either within their comfort zone or outside of it. Besides, tailoring the results of the recommender engine to match the affective state of the user, EmoMTB offers a unique way to discover and enjoy music.
-    EmoMTB supports exploring a collection of circa half a million streamed songs using a regular smartphone as a control interface to navigate in the landscape.},
+ EmoMTB supports exploring a collection of circa half a million streamed songs using a regular smartphone as a control interface to navigate in the landscape.},
     bibtex_show = {true},
     html = {https://dl.acm.org/doi/10.1145/3512527.3531351},
     pages = {206-–210},
+    youtube = {https://www.youtube.com/watch?v=JKgAlWObc-0},
+    pdf = {melchiorre2022emomtb.pdf},
+    preview = {melchiorre2022emomtb_preview.png},
 }
 
 @article{afchar2022explainability,
     abbr = {Article},
     title = {Explainability in Music Recommender Systems},
-    author = {Afchar, Darius* and Melchiorre, Alessandro B.* and Schedl, Markus and Hennequin, Romain and Epure, Elena V and Moussallam, Manuel},
-    journal = {AI Magazine Summer 2022 Issue Volume 43 Issue 2},
+    author = {Afchar, Darius* and Melchiorre, Alessandro B.* and Schedl, Markus and Hennequin, Romain and Epure, Elena V. and Moussallam, Manuel},
+    journal = {AI Magazine},
+    volume = {43},
+    issue = {2},
     abstract = {The most common way to listen to recorded music nowadays is via streaming platforms which provide access to tens of millions of tracks. To assist users in effectively browsing these large catalogs, the integration of Music Recommender Systems (MRSs) has become essential. Current real-world MRSs are often quite complex and optimized for recommendation accuracy. They combine several building blocks based on collaborative filtering and content-based recommendation. This complexity can hinder the ability to explain recommendations to end users, which is particularly important for recommendations perceived as unexpected or inappropriate. While pure recommendation performance often correlates with user satisfaction, explainability has a positive impact on other factors such as trust and forgiveness, which are ultimately essential to maintain user loyalty. In this article, we discuss how explainability can be addressed in the context of MRSs. We provide perspectives on how explainability could improve music recommendation algorithms and enhance user experience. First, we review common dimensions and goals of recommenders' explainability and in general of eXplainable Artificial Intelligence (XAI), and elaborate on the extent to which these apply -- or need to be adapted -- to the specific characteristics of music consumption and recommendation. Then, we show how explainability components can be integrated within a MRS and in what form explanations can be provided. Since the evaluation of explanation quality is decoupled from pure accuracy-based evaluation criteria, we also discuss requirements and strategies for evaluating explanations of music recommendations. Finally, we describe the current challenges for introducing explainability within a large-scale industrial music recommender system and provide research perspectives.},
     year = {2022},
-    html = {https://arxiv.org/abs/2201.10528},
+    arxiv = {https://arxiv.org/abs/2201.10528},
+    html = {https://ojs.aaai.org/index.php/aimagazine/article/view/21743},
     selected = {true},
     pages = {190--208},
+    pdf = {afchar2022explainability.pdf},
+    preview = {afchar2022explainability_preview.pdf},
 }
 
 
@@ -51,7 +61,12 @@
     publisher = {Association for Computing Machinery},
     html = {https://doi.org/10.1145/3460231.3478843},
     abstract = {Several studies have identified discrepancies between the popularity of items in user profiles and the corresponding recommendation lists. Such behavior, which concerns a variety of recommendation algorithms, is referred to as popularity bias. Existing work predominantly adopts simple statistical measures, such as the difference of mean or median popularity, to quantify popularity bias. Moreover, it does so irrespective of user characteristics other than the inclination to popular content. In this work, in contrast, we propose to investigate popularity differences (between the user profile and recommendation list) in terms of median, a variety of statistical moments, as well as similarity measures that consider the entire popularity distributions (Kullback-Leibler divergence and Kendall’s τ rank-order correlation). This results in a more detailed picture of the characteristics of popularity bias. Furthermore, we investigate whether such algorithmic popularity bias affects users of different genders in the same way. We focus on music recommendation and conduct experiments on the recently released standardized LFM-2b dataset, containing listening profiles of Last.fm users. We investigate the algorithmic popularity bias of seven common recommendation algorithms (five collaborative filtering and two baselines). Our experiments show that (1) the studied metrics provide novel insights into popularity bias in comparison with only using average differences, (2) algorithms less inclined towards popularity bias amplification do not necessarily perform worse in terms of utility (NDCG), (3) the majority of the investigated recommenders intensify the popularity bias of the female users. },
-    bibtex_show = {true}
+    bibtex_show = {true},
+    numpages = {6},
+    keywords = {popularity bias, fairness, gender, music recommendation},
+    location = {Amsterdam, Netherlands},
+    series = {RecSys '21},
+    doi = {10.1145/3460231.3478843},
 }
 
 
@@ -69,13 +84,14 @@
     bibtex_show = {true},
     html = {https://www.sciencedirect.com/science/article/pii/S0306457321001540},
     selected = {true},
-    pdf = {Investigating gender fairness of recommendation algorithms in the music domain.pdf}
+    pdf = {melchiorre2021investigating.pdf},
+    preview = {melchiorre2020personalitybias_preview.png},
 }
 
 
 @inproceedings{melchiorre2021lemons,
     title = {LEMONS: Listenable Explanations for Music recOmmeNder Systems},
-    author = {Melchiorre, Alessandro B and Haunschmid, Verena and Schedl, Markus and Widmer, Gerhard},
+    author = {Melchiorre, Alessandro B. and Haunschmid, Verena and Schedl, Markus and Widmer, Gerhard},
     booktitle = {European Conference on Information Retrieval (ECIR)},
     pages = {531--536},
     year = {2021},
@@ -83,7 +99,10 @@
     abstract = {Although current music recommender systems suggest new tracks to their users, they do not provide listenable explanations of why a user should listen to them. LEMONS (Demonstration video: https://youtu.be/giSPrPnZ7mc) is a new system that addresses this gap by (1) adopting a deep learning approach to generate audio content-based recommendations from the audio tracks and (2) providing listenable explanations based on the time-source segmentation of the recommended tracks using the recently proposed audioLIME},
     bibtex_show = {true},
     html = {https://link.springer.com/chapter/10.1007/978-3-030-72240-1_60},
-    pdf = {lemons.pdf}
+    pdf = {melchiorre2021lemons.pdf},
+    youtube = {https://www.youtube.com/watch?v=giSPrPnZ7mc},
+    preview = {melchiorre2021lemons_preview.png},
+    poster = {melchiorre2021lemons_poster.pdf},
 }
 
 
@@ -112,7 +131,12 @@
     pages = {533–538},
     numpages = {6},
     bibtex_show = {true},
-    selected = {true}
+    selected = {true},
+    pdf = {melchiorre2020personalitybias.pdf},
+    preview = {melchiorre2020personalitybias_preview.png},
+    slides = {melchiorre2020personalitybias_slides.pdf},
+    youtube = {https://www.youtube.com/watch?v=3-3ubWNW3q8},
+    poster = {melchiorre2020personalitybias_poster.pdf},
 }
 
 
@@ -129,5 +153,9 @@
     booktitle = {Proceedings of the 28th ACM Conference on User Modeling, Adaptation and Personalization (UMAP)},
     pages = {313–317},
     numpages = {5},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    pdf = {melchiorre2020personalitycorrelates.pdf},
+    preview = {melchiorre2020personalitycorrelates_preview.png},
+    slides = {melchiorre2020personalitycorrelates_slides.pdf},
+    youtube = {https://www.youtube.com/watch?v=6z4l06b69Do&t=197s},
 }

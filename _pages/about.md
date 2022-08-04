@@ -7,6 +7,7 @@ subtitle: alessandro.b.mel ((at)) gmail.com
 profile:
   align: right
   image: prof_pic.jpg
+  image_cicular: false # crops the image to make it circular9
   # address: >
     # alessandro.b.mel at gmail.com
  

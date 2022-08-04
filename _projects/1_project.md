@@ -1,80 +1,37 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Black Holes of Popularity
+description: Art Exhibit at Linz Ars Electronica 2022
+img: assets/img/bhp_universe_scaled.png
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Black Holes of Popularity** will be exhibited at the [Linz Ars Electronica Festival 2022](https://www.jku.at/lit-open-innovation-center/art-science/projekte/lit-ars-sonder-call/). More details will follow!
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+PI: Alessandro B. Melchiorre \
+Co-PIs: Oleg Lesota and Markus Schedl \
+Funding: 62,000 EUR \
+Runtime: March-Sept 2022 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+***
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/bhp_universe.png" title="universe" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    A black hole is threating to absorb your favourite tracks and time is running out. What will you do?
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+“**Black Holes of Popularity**" (BHP) is a gamified art experience that exposes the issue and consequences of music popularity bias, in which popular music tracks tend to be over-represented on music consumption platforms and leave no opportunity for less-known and niche tracks and artists to be heard. Popular tracks are often by default recommended on music streaming services and social media platforms; they are staples of numerous radio transmissions. This, in a "rich get richer" fashion, leads to a further increase of their already-high popularity, leaving less popular music unreachable for the audience to enjoy.
+
+BHP employs the metaphor of a music universe to represent the diversity of music styles and genres. Within this universe, where the galaxies represent music genres, the cosmic bodies such as planets, comets, and  stars, are representative of existing music tracks (e.g. Moonglight Sonata by Beethoven as a neutron star). The most popular tracks, however, appear as black holes that threaten to swallow all the other cosmic bodies, or worse, entire galaxies. In BHP, this symbolizes how popular tracks might overshadow less-popular tracks and *devour* all the public attention.
+
+In this context, the visitors of the BHP exhibit will impersonate a powerful time and space adventurer whose action can affect the universe and change the fate of the cosmic bodies. Will the visitors work together to save the less popular tracks from their doom? Or will they collapse the whole universe into a single massive black hole? Every decision will lead to consequences of cosmic proportions.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

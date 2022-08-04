@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - alshe_master
   pull_request:
     branches:
       - master

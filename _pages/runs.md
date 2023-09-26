@@ -9,6 +9,6 @@ nav_order: 5
 <!-- _pages/runs.md -->
 <div class="runs">
 
-{% bibliography -f {{ /_runs/runs.bib }} %}
+{% bibliography -f {{ runs.bib }} %}
 
 </div>

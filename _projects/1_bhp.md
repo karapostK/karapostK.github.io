@@ -2,7 +2,7 @@
 layout: page
 title: Black Holes of Popularity
 description: Art Exhibit at Linz Ars Electronica 2022
-img: assets/img/bhp_universe_scaled.png
+img: assets/img/projects/bhp/bhp_universe_scaled.png
 importance: 1
 category: work
 ---
@@ -20,7 +20,7 @@ Runtime: March-Sept 2022
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bhp_universe.png" title="universe" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/bhp/bhp_universe.png" title="universe" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -35,7 +35,7 @@ In this context, the visitors of the BHP exhibit will impersonate a powerful tim
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bhp_festival_playing.png" title="playing" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/bhp/bhp_festival_playing.jpg" title="playing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -44,10 +44,10 @@ In this context, the visitors of the BHP exhibit will impersonate a powerful tim
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bhp_festival_team.jpg" title="BHP team" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/bhp/bhp_festival_team.jpg" title="BHP team" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bhp_festival_black_holes.png" title="BHP Black Hole" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/bhp/bhp_festival_black_hole.jpg" title="BHP Black Hole" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

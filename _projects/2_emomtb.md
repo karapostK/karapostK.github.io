@@ -2,7 +2,7 @@
 layout: page
 title: Emotion-aware Music Tower Blocks
 description: Art Exhibit at Linz Ars Electronica Festival 2021
-img: assets/img/emomtb_scaled.png
+img: assets/img/projects/emomtb/emomtb_scaled.png
 importance: 2
 category: work
 ---
@@ -31,7 +31,7 @@ Emotion-aware Music Tower Blocks (EmoMTB) is an audiovisual interface to explore
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/emomtb_emotion.png" title="Emomtb emotion" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/emomtb/emomtb_emotion.png" title="Emomtb emotion" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -41,12 +41,12 @@ Emotion-aware Music Tower Blocks (EmoMTB) is an audiovisual interface to explore
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/emomtb_phone.jpg" title="EmoMTB phone" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/emomtb/emomtb_phone.jpg" title="EmoMTB phone" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/emomtb_clustering.png" title="Clustering of the tracks" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/emomtb/emomtb_clustering.png" title="Clustering of the tracks" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/emomtb_emo_phone.jpg" title="EmoMTB phone interface" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/emomtb/emomtb_emo_phone.jpg" title="EmoMTB phone interface" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

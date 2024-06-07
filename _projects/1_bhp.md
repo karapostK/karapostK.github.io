@@ -1,26 +1,27 @@
 ---
 layout: page
 title: Black Holes of Popularity
-description: Art Exhibit at Linz Ars Electronica 2022
+description: Science Communication Project for the Linz Ars Electronica Festival 2022 - PI role
 img: assets/img/projects/bhp/bhp_universe_scaled.png
 importance: 1
 category: work
 ---
 
-**Black Holes of Popularity** has been presented at the [Linz Ars Electronica Festival 2022](https://ars.electronica.art/planetb/en/black-holes-of-popularity/).
-Check out the [teaser video](https://www.youtube.com/watch?v=jARUoMku1BQ)!
+**Black Holes of Popularity** has been presented at the [Linz Ars Electronica Festival 2022](https://ars.electronica.art/planetb/en/black-holes-of-popularity/). A teaser video is available on [Youtube](https://www.youtube.com/watch?v=jARUoMku1BQ). I also discussed the project for the university's newspaper (available in German [here](https://www.jku.at/kepler-tribune/artikel/kunst-fuer-die-technik-und-technik-fuer-die-kunst/)). \
+I served as the Principal Investigator (PI) for this project. My responsibilities included planning, assigning roles and responsibilities, recruiting, fostering idea and contributions, and coordinating the project. Implemented in Unity and Python.
 
 PI: Alessandro B. Melchiorre \
 Co-PIs: Oleg Lesota and Markus Schedl \
 Funding: 62,000 EUR \
-Runtime: March-Sept 2022 
+Runtime: March - Sept 2022 \
+People: 11
 
 ***
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/bhp/bhp_universe.png" title="universe" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/bhp/bhp_universe.png" title="universe" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -35,7 +36,7 @@ In this context, the visitors of the BHP exhibit will impersonate a powerful tim
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/bhp/bhp_festival_playing.jpg" title="playing" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/bhp/bhp_festival_playing.jpg" title="playing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -44,10 +45,10 @@ In this context, the visitors of the BHP exhibit will impersonate a powerful tim
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/bhp/bhp_festival_team.jpg" title="BHP team" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/bhp/bhp_festival_team.jpg" title="BHP team" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/bhp/bhp_festival_black_hole.jpg" title="BHP Black Hole" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/bhp/bhp_festival_black_hole.jpg" title="BHP Black Hole" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

@@ -18,11 +18,17 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hola!
+I am a PhD student in Machine Learning and Computer Science at the <a href='https://www.jku.at/en/institute-of-computational-perception/'> Institute of Computational Perception</a> at Johannes Kepler University Linz, Austria.
 
-I am a Ph.D. student at the Institute <a href='https://www.jku.at/en/institute-of-computational-perception/'> of Computational Perception</a> and at the Multimedia Mining and Search Group at the <a href='https://www.jku.at/en'>Johannes Kepler University Linz</a>, Austria. 
+My research specializes in recommender system algorithms, explainable AI, and fairness in machine learning. My work has been published in esteemed conferences and journals such as RecSys, ECML-PKDD, ECIR, AI Magazine, and Information Processing & Management.
 
-I studied Engineering in Computer Science in my Bachelor at <a href='https://www.unina.it'>Università degli Studi di Napoli Federico II</a> and in my Master at <a href='https://www.uniroma1.it'>Sapienza - Università di Roma</a> where I both graduated with full marks. 
+Additionally, I led two science communication projects showcased at the international <a href='https://karapostK.github.io/projects'> Ars Electronica Festival </a> in Linz, Austria. 
 
-My main interests revolve around the topics of **recommender system algorithms**, **explainability in AI**, and **bias & fairness**. I am particularly enthusiastic about developing interpretable models and explainability methods for recommender systems, especially in the music domain. I am also interested in investigating the relationships between users' characteristics and music preference and consumption.
-<!--- about learning new advancements in recommender systems and ---> 
+I hold both a Bachelor's and a Master's degree in Engineering in Computer Science.
+ 
+
+
+ 
+
+
+ 

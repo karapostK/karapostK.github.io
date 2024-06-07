@@ -1,6 +1,21 @@
 ---
 ---
 
+@inproceedings{melchiorre2024modular,
+    title = {Modular Debiasing of Latent User Representations in Prototype-based Recommender Systems},
+    author = {Melchiorre, Alessandro B. and Masoudian, Shahed and Kumar, Deepak and Schedl, Markus},
+    booktitle = {Proceedings of 2024 Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD)},
+    abstract = {Recommender Systems (RSs) may inadvertently perpetuate biases based on protected attributes like gender, religion, or ethnicity. Left unaddressed, these biases can lead to unfair system behavior and privacy concerns. Interpretable RS models provide a promising avenue for understanding and mitigating such biases. In this work, we propose a novel approach to debias interpretable RS models by introducing user-specific scaling weights to the interpretable user representations of prototype-based RSs. This reduces the influence of the protected attributes on the RS's prediction while preserving recommendation utility. By decoupling the scaling weights from the original representations, users can control the degree of invariance of recommendations to their protected characteristics. Moreover, by defining distinct sets of weights for each attribute, the user can further specify which attributes the recommendations should be agnostic to. We apply our method to ProtoMF, a state-of-the-art prototype-based RS model that models users by their similarities to prototypes. We employ two debiasing strategies to learn the scaling weights and conduct experiments on ML-1M and LFM2B-DB datasets aiming at making the user representations agnostic to age and gender. The results show that our approach effectively reduces the influence of the protected attributes on the representations on both datasets, showcasing flexibility in bias mitigation, while only marginally affecting recommendation quality. Finally, we assess the effects of the debiasing weights and provide qualitative evidence, particularly focusing on movie recommendations, of genre patterns identified by ProtoMF that correlate with specific genders.},
+    year = {2024},
+    bibtex_show = {true},
+    selected = {true},
+    pdf = {melchiorre2024modular.pdf},
+    preview = {melchiorre2024modular_preview.png},
+    bibtex_show = {true},
+
+}
+
+
 @article{melchiorre2023emomtb,
     title = {Emotion-aware Music Tower Blocks (EmoMTB): An Intelligent Audiovisual Interface for Music Discovery and Recommendation},
     author = {Melchiorre, Alessandro B. and Penz, David and Ganh\"or, Christian and Lesota, Oleg and Fragoso, Vasco and Fritzl, Florian and Parada-Cabaleiro, Emilia and Schubert, Franz and Schedl, Markus},
@@ -14,7 +29,7 @@
     number = {13},
     year = {2023},
     bibtex_show = {true},
-    html = {https://link.springer.com/article/10.1007/s13735-023-00275-8#citeas}
+    html = {https://link.springer.com/article/10.1007/s13735-023-00275-8}
 }
 
 @inproceedings{melchiorre2022protomf,
@@ -177,7 +192,6 @@
     pages = {533–538},
     numpages = {6},
     bibtex_show = {true},
-    selected = {true},
     pdf = {melchiorre2020personalitybias.pdf},
     preview = {melchiorre2020personalitybias_preview.png},
     slides = {melchiorre2020personalitybias_slides.pdf},

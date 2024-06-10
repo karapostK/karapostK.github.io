@@ -59,11 +59,7 @@
       "studyType": "MSc - Graduated with honors",
       "startDate": "2016-09-01",
       "endDate": "2019-02-01",
-      "courses": [
-        "Machine Learning (Python, TensorFlow)",
-        "Big Data (Hadoop, Spark, Flink)",
-        "Natural Language Processing"
-      ]
+      "courses": ["Machine Learning (Python, TensorFlow)", "Big Data (Hadoop, Spark, Flink)", "Natural Language Processing"]
     },
     {
       "institution": "Università degli Studi di Napoli Federico II",
@@ -73,11 +69,7 @@
       "studyType": "BSc - Graduated with honors",
       "startDate": "2013-09-01",
       "endDate": "2016-06-01",
-      "courses": [
-        "Software Engineering (UML, Design, Analysis, Testing)",
-        "Computer Programming (C, C++, Java)",
-        "Databases (SQL, DBMS)"
-      ]
+      "courses": ["Software Engineering (UML, Design, Analysis, Testing)", "Computer Programming (C, C++, Java)", "Databases (SQL, DBMS)"]
     }
   ],
   "projects": [
@@ -148,60 +140,31 @@
       "name": "Programming Languages",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "SQL",
-        "Java",
-        "~C/C++",
-        "~JavaScript "
-      ]
+      "keywords": ["Python", "SQL", "Java", "~C/C++", "~JavaScript "]
     },
     {
       "name": "Machine Learning Libraries",
       "level": "",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "PyTorch",
-        "NumPy",
-        "pandas",
-        "Ray Tune",
-        "scikit-learn",
-        "~Keras",
-        "~TensorFlow"
-      ]
+      "keywords": ["PyTorch", "NumPy", "pandas", "Ray Tune", "scikit-learn", "~Keras", "~TensorFlow"]
     },
     {
       "name": "Development Tools",
       "level": "",
       "icon": "fa-solid fa-tools",
-      "keywords": [
-        "git",
-        "Jupyter",
-        "Weight&Biases",
-        "bash",
-        "matplotlib"
-      ]
+      "keywords": ["git", "Jupyter", "Weight&Biases", "bash", "matplotlib"]
     },
     {
       "name": "Big Data Technologies",
       "level": "",
       "icon": "fa-solid fa-database",
-      "keywords": [
-        "~Spark",
-        "~Hadoop",
-        "~Kafka",
-        "~Apache Calcite"
-      ]
+      "keywords": ["~Spark", "~Hadoop", "~Kafka", "~Apache Calcite"]
     },
     {
       "name": "Soft Skills",
       "icon": "fa-solid fa-comments",
       "level": "",
-      "keywords": [
-        "Communication",
-        "Teamwork",
-        "Leadership"
-      ]
+      "keywords": ["Communication", "Teamwork", "Leadership"]
     }
   ],
   "languages": [

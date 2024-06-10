@@ -108,6 +108,15 @@ div.list-group {
   align-items: flex-start;
   margin-bottom: 2rem;
 }
+div.list-group3 {
+  flex: 1 1 calc(33.333% - 1rem);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
 
 td.list-group-category {
   color: var(--global-theme-color);

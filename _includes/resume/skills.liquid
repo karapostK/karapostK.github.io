@@ -27,8 +27,10 @@
               <td></td>
               <td class="list-group-name">
                 {% assign first_char = item | slice: 0, 1 %}
-                {% if first_char == "~" %}
-                  <b><span style="color: gray">{{ item | remove: "~" }}</span></b>
+                {% if first_char == '~' %}
+                  <b
+                    ><span style="color: gray">{{ item | remove: '~' }}</span></b
+                  >
                 {% else %}
                   <b>{{ item }}</b>
                 {% endif %}

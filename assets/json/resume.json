@@ -1,200 +1,296 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "name": "Alessandro B. Melchiorre",
+    "label": "Machine Learning Researcher",
+    "email": "alessandro.b.mel ((at)) gmail.com",
+    "summary": "Machine Learning researcher with a Computer Science background. I enjoy carefully developing each project aspect, from data processing to model predictions, to deliver effective and well-structured solutions on time."
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Johannes Kepler Universität Linz",
+      "position": "Graduate Researcher",
+      "location": "Linz, AT",
+      "url": "https://www.jku.at/en/institute-of-computational-perception/",
+      "startDate": "2019-09-15",
+      "endDate": "",
+      "summary": "Research focus on Recommender Systems, Explainable and Fair AI/ML.",
+      "highlights": [
+        "Developed a novel effective recommendation algorithm and a tool to offer explainable predictions and model's insights.",
+        "Devised a new approach for modular debiasing of latent embeddings of pre-trained ML recommendation models.",
+        "Led 2 funded science-communication projects that resulted in interactive exhibits for thousands of people."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Technische Universität Berlin",
+      "position": "Visiting Student",
+      "location": "Berlin, DE",
+      "url": "https://www.tu.berlin/en/dima/research/research-profile",
+      "startDate": "2018-09-01",
+      "endDate": "2019-02-01",
+      "summary": "",
+      "highlights": [
+        "Awarded 1 of 12 departmental merit-based scholarships",
+        "Developed a SQL query resolution system for Geo-distributed federated databases while enforcing data shipment constraints. Implemented in Java and Apache Calcite."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Johannes Kepler Universität Linz",
+      "location": "Linz, AT",
+      "url": "https://www.jku.at/en/institute-of-computational-perception/",
+      "area": "Computer Science/AI",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2019-09-01",
+      "endDate": "",
+      "courses": [
+        "Machine Learning (PyTorch)",
+        "Recommender Systems & Ranking (Collaborative Filtering)",
+        "Explainable AI (Modelling)",
+        "Fairness in ML (Regularization, Debiasing)",
+        "Deep Learning (VAE, Adversarial Networks, ...)"
+      ]
+    },
+    {
+      "institution": "Sapienza Università di Roma",
+      "location": "Rome, IT",
+      "url": "https://www.uniroma1.it/en/pagina-strutturale/home",
+      "area": "Engineering in Computer Science",
+      "studyType": "MSc - Graduated with honors",
+      "startDate": "2016-09-01",
+      "endDate": "2019-02-01",
+      "courses": [
+        "Machine Learning (Python, TensorFlow)",
+        "Big Data (Hadoop, Spark, Flink)",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "institution": "Università degli Studi di Napoli Federico II",
+      "location": "Naples, IT",
+      "url": "https://www.unina.it/in/home",
+      "area": "Engineering in Computer Science",
+      "studyType": "BSc - Graduated with honors",
+      "startDate": "2013-09-01",
+      "endDate": "2016-06-01",
+      "courses": [
+        "Software Engineering (UML, Design, Analysis, Testing)",
+        "Computer Programming (C, C++, Java)",
+        "Databases (SQL, DBMS)"
+      ]
     }
   ],
-  "awards": [
+  "projects": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "startDate": "2022-02-01",
+      "endDate": "2022-09-01",
+      "url": "https://ars.electronica.art/planetb/en/black-holes-of-popularity/",
+      "name": "Black Holes of Popularity at the ARS Electronica Festival 2022",
+      "summary": "PI role - Project coordination and planning, recruiting, role assignments, and fostering ideas and contributions.",
+      "highlights": []
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "startDate": "2021-02-01",
+      "endDate": "2021-09-01",
+      "url": "https://ars.electronica.art/newdigitaldeal/en/music-tower-blocks/",
+      "name": "Emotion-aware Music Tower Blocks at the ARS Electronica Festival 2021",
+      "summary": "Co-PI role - System design, data analysis, tasks assignment, API integration development. Python/JavaScript.",
+      "highlights": []
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "startDate": "2020-01-01",
+      "endDate": "",
+      "url": "https://github.com/karapostK/hassaku",
+      "name": "Hassaku, a(nother) research-oriented Recommender System Framework",
+      "summary": "Data processing, training, testing, hyperparameter optimization, metrics computation, and logging for several Collaborative Filtering-based Recommender Systems. Python/PyTorch.",
+      "highlights": []
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Modular Debiasing of Latent User Representations in Prototype-based Recommender Systems",
+      "publisher": "Proceedings of 2024 Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD)",
+      "releaseDate": "2024-01-01",
+      "url": "",
+      "summary": "A. B. Melchiorre, S. Masoudian, D. Kumar, M. Schedl"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "ProtoMF: Prototype-based Matrix Factorization for Effective and Explainable Recommendations",
+      "publisher": "Proceedings of the 16th ACM Conference on Recommender Systems (RecSys)",
+      "releaseDate": "2022-09-13",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3523227.3546756",
+      "summary": "A. B. Melchiorre, N. Rekabsaz, C. Ganhör, M. Schedl"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Explainability in Music Recommender Systems",
+      "publisher": "AI Magazine",
+      "releaseDate": "2022-06-23",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/aaai.12056",
+      "summary": "D. Afchar, A. B. Melchiorre, M. Schedl, R. Hennequin, E. V. Epure, M. Moussallam"
+    },
+    {
+      "name": "Investigating Gender Fairness of Recommendation Algorithms in the Music Domain",
+      "publisher": "Information Processing & Management (IPM)",
+      "releaseDate": "2021-09-01",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306457321001540",
+      "summary": "A. B. Melchiorre, N. Rekabsaz, E. Parada-Cabaleiro, S. Brandl, O. Lesota, M. Schedl"
+    },
+    {
+      "name": "LEMONS: Listenable Explanations for Music recOmmeNder Systems",
+      "publisher": "European Conference on Information Retrieval (ECIR)",
+      "releaseDate": "2021-03-30",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-72240-1_60",
+      "summary": "A. B. Melchiorre, V. Praher, M. Schedl, G. Widmer"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "SQL",
+        "Java",
+        "~C/C++",
+        "~JavaScript "
+      ]
+    },
+    {
+      "name": "Machine Learning Libraries",
+      "level": "",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "PyTorch",
+        "NumPy",
+        "pandas",
+        "Ray Tune",
+        "scikit-learn",
+        "~Keras",
+        "~TensorFlow"
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "level": "",
+      "icon": "fa-solid fa-tools",
+      "keywords": [
+        "git",
+        "Jupyter",
+        "Weight&Biases",
+        "bash",
+        "matplotlib"
+      ]
+    },
+    {
+      "name": "Big Data Technologies",
+      "level": "",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "~Spark",
+        "~Hadoop",
+        "~Kafka",
+        "~Apache Calcite"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "icon": "fa-solid fa-comments",
+      "level": "",
+      "keywords": [
+        "Communication",
+        "Teamwork",
+        "Leadership"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "icon": "flag-icon-it",
+      "language": "Italian",
+      "fluency": "Native"
     },
     {
+      "icon": "flag-icon-gb",
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
+      "fluency": "Fluent"
+    },
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "icon": "flag-icon-de",
+      "language": "German",
+      "fluency": "Beginner"
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Prof. Markus Schedl",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Full Professor at Johannes Kepler University Linz.",
+      "url": "http://www.mschedl.eu/"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Navid Rekabsaz",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Senior Applied ML Scientist at Thomson Reuters AI Labs.",
+      "url": "https://navid-rekabsaz.github.io/"
     }
   ],
-  "projects": [
+  "reviewer": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "date": "2024",
+      "location": "",
+      "url": "https://ecmlpkdd.org/2024/",
+      "organization": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)",
+      "summary": "Main Conference",
+      "highlights": []
+    },
+    {
+      "date": "2023",
+      "location": "",
+      "url": "https://recsys.acm.org/recsys23/",
+      "organization": "ACM Conference on Recommender Systems (RecSys)",
+      "summary": "Main Conference",
+      "highlights": []
+    },
+    {
+      "date": "2023",
+      "location": "",
+      "url": "https://tors.acm.org",
+      "organization": "ACM Transactions on Recommender Systems (TORS)",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "date": "2022-2023",
+      "location": "",
+      "url": "https://2022.acmmm.org/",
+      "organization": "ACM Multimedia (ACMMM)",
+      "summary": "Main Conference",
+      "highlights": []
+    },
+    {
+      "date": "2023",
+      "location": "",
+      "url": "https://sites.google.com/view/hcmir23/",
+      "organization": "2nd Workshop on Human-Centric Music Information Retrieval (HCMIR23)",
+      "summary": "ISMIR 2023 Satellite Event",
+      "highlights": []
+    },
+    {
+      "date": "2021",
+      "location": "",
+      "url": "https://archives.iw3c2.org/www2021/",
+      "organization": "Web Conference (TheWebConf)",
+      "summary": "User Modeling and Personalization",
+      "highlights": []
+    },
+    {
+      "date": "2020-2021",
+      "location": "",
+      "url": "https://www.um.org/umap2020/",
+      "organization": "ACM Conference on User Modeling, Adaptation and Personalization (UMAP)",
+      "summary": "Demo and Late-Breaking Results (2021), Main Track (2020)",
+      "highlights": []
     }
   ]
 }

@@ -1,3 +1,7 @@
+<div class="p-1 pl-2 font-weight-light text">
+  <p>Gray items indicate previous experience.</p>
+</div>
+
 <div class="list-groups">
   {% for content in data[1] %}
     <div class="list-group col-md-6" title="{{ content.level }}">
@@ -22,7 +26,12 @@
             <tr>
               <td></td>
               <td class="list-group-name">
-                <b>{{ item }}</b>
+                {% assign first_char = item | slice: 0, 1 %}
+                {% if first_char == "~" %}
+                  <b><span style="color: gray">{{ item | remove: "~" }}</span></b>
+                {% else %}
+                  <b>{{ item }}</b>
+                {% endif %}
               </td>
             </tr>
           {% endfor %}

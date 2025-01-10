@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD student in Machine Learning and Computer Science at the <a href='https://www.jku.at/en/institute-of-computational-perception/'> Institute of Computational Perception</a> at Johannes Kepler University Linz, Austria.
+I am a PostDoc in Machine Learning and Computer Science at the <a href='https://www.jku.at/en/institute-of-computational-perception/'> Institute of Computational Perception</a> at Johannes Kepler University Linz, Austria.
 
 My research specializes in recommender system algorithms, explainable AI, and fairness in machine learning. My work has been published in esteemed conferences and journals such as RecSys, ECML-PKDD, ECIR, AI Magazine, and Information Processing & Management.
 

@@ -1,6 +1,62 @@
 ---
 ---
 
+@inproceedings{hangoebl2026sprig,
+    abbr = {CIKM},
+    title = {SPRIG: Semantic-ID-enhanced Paths for Knowledge Graph-based Generative Recommendation},
+    author = {Hang\"obl, Justin and Moscati, Marta and Melchiorre, Alessandro B. and Nawaz, Shah and Schedl, Markus},
+    booktitle = {Proceedings of the ACM International Conference on Information and Knowledge Management (CIKM)},
+    year = {2026},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    abstract = {Recommender systems leveraging generative models often generate item identifiers directly, rather than ranking catalog items by a recommendation score. Recent work extends beyond pure sequential interaction signals by incorporating item content and structured relationships among items, with two distinct directions emerging. Semantic IDs (SIDs) enrich item representations by replacing opaque, randomly initialized embeddings with hierarchically quantized discrete codes derived from item content. Knowledge-graph (KG) path reasoning instead generates entity-relation paths that ground recommendations in structured relationships between items, attributes, and external entities, thereby enriching the relational context. These two lines have complementary limitations: SID-based models lack relational grounding, while KG-based generative recommenders still represent items as arbitrary, opaque tokens tied to large embedding tables, limiting parameter sharing and generalization. We propose SPRIG, a generative recommender that integrates content-derived SIDs into KG path reasoning. SPRIG is trained on information-rich KG paths that terminate in items represented as discrete, content-derived tokens, combining the advantages of both approaches. We evaluate SPRIG on movie and music recommendation datasets against baselines spanning sequential language models, KG-augmented methods, and SID-based approaches. Our results show that SPRIG achieves competitive performance over prior generative models while using fewer parameters and a lower compute cost.},
+    bibtex_show = {true},
+    preview = {hangoebl2026sprig_preview.png}
+}
+
+
+@inproceedings{melchiorre2025jam,
+    abbr = {RecSys},
+    title = {Just Ask for Music (JAM): Multimodal and Personalized Natural Language Music Recommendation},
+    author = {Melchiorre, Alessandro B. and Epure, Elena V. and Masoudian, Shahed and Escobedo, Gustavo and Hausberger, Anna and Moussallam, Manuel and Schedl, Markus},
+    booktitle = {Proceedings of the Nineteenth ACM Conference on Recommender Systems (RecSys)},
+    year = {2025},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    abstract = {Natural language interfaces offer a compelling approach for music recommendation, enabling users to express complex preferences conversationally. While Large Language Models (LLMs) show promise in this direction, their scalability in recommender systems is limited by high costs and latency. Retrieval-based approaches using smaller language models mitigate these issues but often rely on single-modal item representations, overlook long-term user preferences, and require full model retraining, posing challenges for real-world deployment. In this paper, we present JAM (Just Ask for Music), a lightweight and intuitive framework for natural language music recommendation. JAM models user-query-item interactions as vector translations in a shared latent space, inspired by knowledge graph embedding methods like TransE. To capture the complexity of music and user intent, JAM aggregates multimodal item features via cross-attention and sparse mixture-of-experts. We also introduce JAMSessions, a new dataset of over 100k user-query-item triples with anonymized user/item embeddings, uniquely combining conversational queries and user long-term preferences. Our results show that JAM provides accurate recommendations, produces intuitive representations suitable for practical use cases, and can be easily integrated with existing music recommendation stacks.},
+    pages = {615--620},
+    doi = {10.1145/3705328.3748020},
+    isbn = {979-8-4007-1364-4},
+    html = {https://dl.acm.org/doi/10.1145/3705328.3748020},
+    arxiv = {https://arxiv.org/abs/2507.15826},
+    code = {https://github.com/hcai-mms/jam},
+    location = {Prague, Czech Republic},
+    series = {RecSys '25},
+    bibtex_show = {true},
+    selected = {true},
+    preview = {melchiorre2025jam_preview.png}
+}
+
+
+@inproceedings{pomo2025daquamrec,
+    abbr = {RecSys},
+    title = {First International Workshop on Data Quality-Aware Multimodal Recommendation (DaQuaMRec)},
+    author = {Pomo, Claudio and Jannach, Dietmar and Kim, Yubin and Malitesta, Daniele and Mancino, Alberto Carlo Maria and McAuley, Julian J. and Melchiorre, Alessandro B. and Nawaz, Shah},
+    booktitle = {Proceedings of the Nineteenth ACM Conference on Recommender Systems (RecSys)},
+    year = {2025},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    abstract = {The integration of rich, multimodal signals—spanning visual, textual, and acoustic information—represents a significant evolution for recommender systems, promising more nuanced and personalized user experiences. However, the efficacy and trustworthiness of these advanced models hinge critically on a foundational, yet frequently overlooked, element: the integrity of the input data. Practical deployments are often plagued by a host of data-related pathologies, including noisy or corrupted signals, partial or missing modalities, semantic misalignment between data streams, and the propagation of societal biases. Such deficiencies can silently subvert model performance, leading to unreliable recommendations and eroding user trust. The First International Workshop on Data Quality-Aware Multimodal Recommendation (DaQuaMRec) is convened to establish a dedicated, international forum to confront these fundamental challenges. Our objective is to drive research into new frameworks for diagnosing, measuring, and addressing data quality issues in multimodal recommendations. By focusing on data rather than just model architecture, DaQuaMRec seeks to develop more robust, equitable, and reliable recommender systems, prioritizing data quality in research.},
+    pages = {1378--1382},
+    doi = {10.1145/3705328.3748001},
+    html = {https://dl.acm.org/doi/10.1145/3705328.3748001},
+    location = {Prague, Czech Republic},
+    series = {RecSys '25},
+    bibtex_show = {true},
+    preview = {pomo2025daquamrec_preview.png}
+}
+
+
 @inproceedings{melchiorre2024modular,
     abbr = {Best Student Paper},
     title = {Modular Debiasing of Latent User Representations in Prototype-based Recommender Systems},
@@ -35,6 +91,7 @@
 }
 
 @inproceedings{melchiorre2022protomf,
+    abbr = {RecSys},
     title = {ProtoMF: Prototype-based Matrix Factorization for Effective and Explainable Recommendations},
     author = {Melchiorre, Alessandro B. and Rekabsaz, Navid and Ganh\"or, Christian and Schedl, Markus},
     booktitle = {Proceedings of the 16th ACM Conference on Recommender Systems (RecSys)},
@@ -59,6 +116,7 @@
 }
 
 @inproceedings{lesota2022exploring,
+    abbr = {RecSys},
     title = {Exploring Cross-group Discrepancies in Calibrated Popularity for Accuracy/Fairness Trade-off Optimization},
     author = {Lesota, Oleg and Brandl, Stefan and Wenzel, Matthias and  Melchiorre, Alessandro B. and Lex, Elisabeth and Rekabsaz, Navid and Schedl, Markus},
     booktitle = {Proceedings of the 2nd Workshop on Multi-Objective Recommender Systems co-located with 16th ACM Conference on Recommender Systems (RecSys 2022), Seattle, WA, USA, 18th-23rd September},
@@ -109,6 +167,7 @@
 
 
 @inproceedings{lesota2021analyzing,
+    abbr = {RecSys},
     title = {Analyzing Item Popularity Bias of Music Recommender Systems: Are Different Genders Equally Affected?},
     author = {Lesota, Oleg and Melchiorre, Alessandro B. and Rekabsaz, Navid and Brandl, Stefan and Kowald, Dominik and Lex, Elisabeth and Schedl, Markus},
     booktitle = {Fifteenth ACM Conference on Recommender Systems (RecSys)},
@@ -182,6 +241,7 @@
 
 
 @inproceedings{melchiorre2020personalitybias,
+    abbr = {RecSys},
     author = {Melchiorre, Alessandro B. and Zangerle, Eva and Schedl, Markus},
     title = {Personality Bias of Music Recommendation Algorithms},
     year = {2020},
